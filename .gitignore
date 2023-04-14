@@ -1,0 +1,12 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+build/*
+*.aqo
+aqua-paths.ads
+aqua.gpr
+.aqua-options
+.aqua-config

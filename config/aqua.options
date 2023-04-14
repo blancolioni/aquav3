@@ -1,0 +1,6 @@
+package Aqua.Options is
+
+   Show_Devices : Boolean := False;
+   Trace        : Boolean := False;
+
+end Aqua.Options;

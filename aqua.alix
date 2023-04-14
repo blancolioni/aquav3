@@ -1,0 +1,10 @@
+project_name = Aqua
+source_dir = src
+source_dir = src/tests
+main_unit = aqua-driver
+exec_name = aqua
+config_dir = config
+depend = { project = wlib version = any }
+post_install = "{exec_path}/aqua"
+path_unit = { unit = Aqua.Paths
+              path = src/aqua-paths.ads }
